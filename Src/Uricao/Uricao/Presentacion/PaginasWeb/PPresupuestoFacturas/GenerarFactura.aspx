@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Presentacion/MasterPage/PaginaMaestra.Master" AutoEventWireup="true" CodeBehind="HomePresupuesto.aspx.cs" Inherits="Uricao.Presentacion.PaginasWeb.PPresupuestoFacturas.HomePresupuesto" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Presentacion/MasterPage/PaginaMaestra.Master" AutoEventWireup="true" CodeBehind="GenerarFactura.aspx.cs" Inherits="Uricao.Presentacion.PaginasWeb.PPresupuestoFacturas.GenerarFactura" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     
 </asp:Content>
@@ -136,7 +136,7 @@
                     </asp:Button>
                 </td>
             </tr>
-        <table>
+        </table>
         
 
 

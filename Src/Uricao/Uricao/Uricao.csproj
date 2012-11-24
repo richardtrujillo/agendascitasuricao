@@ -99,7 +99,9 @@
     <Content Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx" />
     <Content Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx" />
     <Content Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\ConsultarFactura.aspx" />
     <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura_Especifico.aspx" />
     <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomeFactura.aspx" />
     <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx" />
     <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuestoFactura.aspx" />
@@ -206,12 +208,26 @@
     <Compile Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx.designer.cs">
       <DependentUpon>HomeHistoriaPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\ConsultarFactura.aspx.cs">
+      <DependentUpon>ConsultarFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\ConsultarFactura.aspx.designer.cs">
+      <DependentUpon>ConsultarFactura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx.cs">
       <DependentUpon>GenerarFactura.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx.designer.cs">
       <DependentUpon>GenerarFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura_Especifico.aspx.cs">
+      <DependentUpon>GenerarFactura_Especifico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura_Especifico.aspx.designer.cs">
+      <DependentUpon>GenerarFactura_Especifico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomeFactura.aspx.cs">
       <DependentUpon>HomeFactura.aspx</DependentUpon>

@@ -13,5 +13,10 @@ namespace Uricao.Presentacion.PaginasWeb.PTratamientos
         {
 
         }
+
+        protected void gridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //_presentador.BuscarProyecto();
+        }
     }
 }
