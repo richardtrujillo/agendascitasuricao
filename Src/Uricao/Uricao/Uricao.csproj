@@ -13,6 +13,7 @@
     <RootNamespace>Uricao</RootNamespace>
     <AssemblyName>Uricao</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,6 +63,7 @@
     <Content Include="Presentacion\Imagenes\odontologia2.jpg" />
     <Content Include="Presentacion\Imagenes\Sonrisa.jpg" />
     <Content Include="Presentacion\Imagenes\TopUricao.jpg" />
+    <Content Include="Presentacion\Imagenes\users.png" />
     <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
     <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
@@ -92,19 +94,28 @@
     <Content Include="Presentacion\JQuery\js\jquery.hoverIntent.js" />
     <Content Include="Presentacion\JQuery\js\login.js" />
     <Content Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx" />
-    <Content Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx" />
     <Content Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx" />
     <Content Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx" />
     <Content Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomeFactura.aspx" />
     <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuestoFactura.aspx" />
     <Content Include="Presentacion\PaginasWeb\PProductosInventario\HomeInventario.aspx" />
     <Content Include="Presentacion\PaginasWeb\PProveedores\HomeProveedores.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PRolesUsuarios\AgregarRol.aspx" />
     <Content Include="Presentacion\PaginasWeb\PRolesUsuarios\HomeUsuarios.aspx" />
     <Content Include="Presentacion\PaginasWeb\PTrabajadoresEmpleados\HomeTrabajadores.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTratamientos\AgregarTratamiento.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTratamientos\ConsultarDetalleTratamiento.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTratamientos\ConsultarTratamiento.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTratamientos\EliminarTratamiento.aspx" />
     <Content Include="Presentacion\PaginasWeb\PTratamientos\HomeTratamiento.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -160,13 +171,6 @@
     <Compile Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx.designer.cs">
       <DependentUpon>UricaoHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx.cs">
-      <DependentUpon>agregarCita.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx.designer.cs">
-      <DependentUpon>agregarCita.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx.cs">
       <DependentUpon>HomeCita.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -202,12 +206,33 @@
     <Compile Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx.designer.cs">
       <DependentUpon>HomeHistoriaPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx.cs">
+      <DependentUpon>GenerarFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\GenerarFactura.aspx.designer.cs">
+      <DependentUpon>GenerarFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomeFactura.aspx.cs">
+      <DependentUpon>HomeFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomeFactura.aspx.designer.cs">
+      <DependentUpon>HomeFactura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx.cs">
       <DependentUpon>HomePresupuesto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx.designer.cs">
       <DependentUpon>HomePresupuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuestoFactura.aspx.cs">
+      <DependentUpon>HomePresupuestoFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuestoFactura.aspx.designer.cs">
+      <DependentUpon>HomePresupuestoFactura.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PProductosInventario\HomeInventario.aspx.cs">
       <DependentUpon>HomeInventario.aspx</DependentUpon>
@@ -223,6 +248,13 @@
     <Compile Include="Presentacion\PaginasWeb\PProveedores\HomeProveedores.aspx.designer.cs">
       <DependentUpon>HomeProveedores.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PRolesUsuarios\AgregarRol.aspx.cs">
+      <DependentUpon>AgregarRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PRolesUsuarios\AgregarRol.aspx.designer.cs">
+      <DependentUpon>AgregarRol.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\PaginasWeb\PRolesUsuarios\HomeUsuarios.aspx.cs">
       <DependentUpon>HomeUsuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,6 +268,34 @@
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PTrabajadoresEmpleados\HomeTrabajadores.aspx.designer.cs">
       <DependentUpon>HomeTrabajadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\AgregarTratamiento.aspx.cs">
+      <DependentUpon>AgregarTratamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\AgregarTratamiento.aspx.designer.cs">
+      <DependentUpon>AgregarTratamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\ConsultarDetalleTratamiento.aspx.cs">
+      <DependentUpon>ConsultarDetalleTratamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\ConsultarDetalleTratamiento.aspx.designer.cs">
+      <DependentUpon>ConsultarDetalleTratamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\ConsultarTratamiento.aspx.cs">
+      <DependentUpon>ConsultarTratamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\ConsultarTratamiento.aspx.designer.cs">
+      <DependentUpon>ConsultarTratamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\EliminarTratamiento.aspx.cs">
+      <DependentUpon>EliminarTratamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\EliminarTratamiento.aspx.designer.cs">
+      <DependentUpon>EliminarTratamiento.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PTratamientos\HomeTratamiento.aspx.cs">
       <DependentUpon>HomeTratamiento.aspx</DependentUpon>
