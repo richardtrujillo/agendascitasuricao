@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Uricao.Presentacion.PaginasWeb.PAgendaCitas
+namespace Uricao.Presentacion.PaginasWeb.PCuentasPorPagar
 {
 
 
-    public partial class agregarCita
+    public partial class HomeCuentasPorPagar
     {
     }
 }
