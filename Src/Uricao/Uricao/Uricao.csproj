@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28C81204-9600-4713-908B-AEF247285F95}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Uricao</RootNamespace>
+    <AssemblyName>Uricao</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="nunit.mocks, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Presentacion\Estilos\Site.css" />
+    <Content Include="Presentacion\Imagenes\BannerServicios.jpg" />
+    <Content Include="Presentacion\Imagenes\Buscar.png" />
+    <Content Include="Presentacion\Imagenes\Editar.png" />
+    <Content Include="Presentacion\Imagenes\Eliminar.png" />
+    <Content Include="Presentacion\Imagenes\LogoUricao.png" />
+    <Content Include="Presentacion\Imagenes\odontologia.jpg" />
+    <Content Include="Presentacion\Imagenes\odontologia2.jpg" />
+    <Content Include="Presentacion\Imagenes\Sonrisa.jpg" />
+    <Content Include="Presentacion\Imagenes\TopUricao.jpg" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Presentacion\JQuery\css\redmond\jquery-ui-1.9.1.custom.css" />
+    <Content Include="Presentacion\JQuery\css\redmond\jquery-ui-1.9.1.custom.min.css" />
+    <Content Include="Presentacion\JQuery\css\style.css" />
+    <Content Include="Presentacion\JQuery\images\bar.png" />
+    <Content Include="Presentacion\JQuery\images\buttonbg.png" />
+    <Content Include="Presentacion\JQuery\images\buttonbgHover.png" />
+    <Content Include="Presentacion\JQuery\images\loginArrow.png" />
+    <Content Include="Presentacion\JQuery\images\loginbuttonbg.png" />
+    <Content Include="Presentacion\JQuery\js\jquery-1.8.2.js" />
+    <Content Include="Presentacion\JQuery\js\jquery-ui-1.9.1.custom.js" />
+    <Content Include="Presentacion\JQuery\js\jquery-ui-1.9.1.custom.min.js" />
+    <Content Include="Presentacion\JQuery\js\jquery.dcverticalmegamenu.1.3.js" />
+    <Content Include="Presentacion\JQuery\js\jquery.hoverIntent.js" />
+    <Content Include="Presentacion\JQuery\js\login.js" />
+    <Content Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PProductosInventario\HomeInventario.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PProveedores\HomeProveedores.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PRolesUsuarios\HomeUsuarios.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTrabajadoresEmpleados\HomeTrabajadores.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PTratamientos\HomeTratamiento.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoDeDatos\Conexion\ConexionSqlServer.cs" />
+    <Compile Include="AccesoDeDatos\Conexion\InterfazConexion\IConexionSqlServer.cs" />
+    <Compile Include="AccesoDeDatos\SqlServer\SqlServerBanco.cs" />
+    <Compile Include="Entidades\EAgendaCitas\Cita.cs" />
+    <Compile Include="Entidades\EBancos\Banco.cs" />
+    <Compile Include="Entidades\ECuentasPorCobrar\CuentaPorCobrar.cs" />
+    <Compile Include="Entidades\ECuentasPorPagar\CuentaPorPagar.cs" />
+    <Compile Include="Entidades\EEmpleados\Empleado.cs" />
+    <Compile Include="Entidades\EHistoriaPaciente\Antecedente.cs" />
+    <Compile Include="Entidades\EPresupuestoFacturas\Presupuesto.cs" />
+    <Compile Include="Entidades\EProductosInventario\Producto.cs" />
+    <Compile Include="Entidades\EProveedores\Proveedor.cs" />
+    <Compile Include="Entidades\ERolesUsuarios\Rol.cs" />
+    <Compile Include="Entidades\ETratamientos\Tratamiento.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNAgendaCitas\LogicaCita.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNBancos\LogicaBanco.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNCuentasPorCobrar\LogicaCuentaPorCobrar.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNCuentasPorPagar\LogicaCuentaPorPagar.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNEmpleados\LogicaEmpleado.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNHistoriaPaciente\LogicaAntecedente.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNPresupuestoFacturas\LogicaPresupuesto.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNProductosInventario\LogicaProducto.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNProveedores\LogicaProveedor.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNRolesUsuarios\LogicaRol.cs" />
+    <Compile Include="LogicaDeNegocios\Clases\LNTratamientos\LogicaTratamiento.cs" />
+    <Compile Include="LogicaDeNegocios\Excepciones\ExcepcionConexion.cs" />
+    <Compile Include="Presentacion\MasterPage\LoginMaestro.Master.cs">
+      <DependentUpon>LoginMaestro.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\MasterPage\LoginMaestro.Master.designer.cs">
+      <DependentUpon>LoginMaestro.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\MasterPage\PaginaMaestra.Master.cs">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\MasterPage\PaginaMaestra.Master.designer.cs">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx.cs">
+      <DependentUpon>UricaoHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx.designer.cs">
+      <DependentUpon>UricaoHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx.cs">
+      <DependentUpon>agregarCita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\agregarCita.aspx.designer.cs">
+      <DependentUpon>agregarCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx.cs">
+      <DependentUpon>HomeCita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx.designer.cs">
+      <DependentUpon>HomeCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx.cs">
+      <DependentUpon>HomeBancos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx.designer.cs">
+      <DependentUpon>HomeBancos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx.cs">
+      <DependentUpon>HomeCuentasPorCobrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx.designer.cs">
+      <DependentUpon>HomeCuentasPorCobrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx.cs">
+      <DependentUpon>HomeCuentasPorPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx.designer.cs">
+      <DependentUpon>HomeCuentasPorPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx.cs">
+      <DependentUpon>HomeHistoriaPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PHistoriaPaciente\HomeHistoriaPaciente.aspx.designer.cs">
+      <DependentUpon>HomeHistoriaPaciente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx.cs">
+      <DependentUpon>HomePresupuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PPresupuestoFacturas\HomePresupuesto.aspx.designer.cs">
+      <DependentUpon>HomePresupuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PProductosInventario\HomeInventario.aspx.cs">
+      <DependentUpon>HomeInventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PProductosInventario\HomeInventario.aspx.designer.cs">
+      <DependentUpon>HomeInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PProveedores\HomeProveedores.aspx.cs">
+      <DependentUpon>HomeProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PProveedores\HomeProveedores.aspx.designer.cs">
+      <DependentUpon>HomeProveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PRolesUsuarios\HomeUsuarios.aspx.cs">
+      <DependentUpon>HomeUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PRolesUsuarios\HomeUsuarios.aspx.designer.cs">
+      <DependentUpon>HomeUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTrabajadoresEmpleados\HomeTrabajadores.aspx.cs">
+      <DependentUpon>HomeTrabajadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTrabajadoresEmpleados\HomeTrabajadores.aspx.designer.cs">
+      <DependentUpon>HomeTrabajadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\HomeTratamiento.aspx.cs">
+      <DependentUpon>HomeTratamiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PTratamientos\HomeTratamiento.aspx.designer.cs">
+      <DependentUpon>HomeTratamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebasUnitarias\PruebaConexion.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Presentacion\MasterPage\LoginMaestro.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Presentacion\MasterPage\PaginaMaestra.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61221</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
