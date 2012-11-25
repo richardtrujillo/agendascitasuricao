@@ -14,3 +14,11 @@ C:\Users\MariaDeFreitas\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\U
 C:\Users\MariaDeFreitas\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\Uricao.csprojResolveAssemblyReference.cache
 C:\Users\MariaDeFreitas\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\Uricao.dll
 C:\Users\MariaDeFreitas\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\Uricao.pdb
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\bin\Uricao.dll
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\bin\Uricao.pdb
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\bin\nunit.framework.dll
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\bin\nunit.mocks.dll
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\bin\nunit.framework.xml
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\Uricao.dll
+C:\Users\Jhania Parra\Documents\ProyectoAgenda\agendascitasuricao\Src\Uricao\Uricao\obj\Debug\Uricao.pdb

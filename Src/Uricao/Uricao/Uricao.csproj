@@ -94,6 +94,7 @@
     <Content Include="Presentacion\JQuery\js\jquery.hoverIntent.js" />
     <Content Include="Presentacion\JQuery\js\login.js" />
     <Content Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PAgendaCitas\AgregarCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PAgendaCitas\DetalleCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx" />
@@ -173,6 +174,13 @@
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx.designer.cs">
       <DependentUpon>UricaoHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\AgregarCita.aspx.cs">
+      <DependentUpon>AgregarCita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\AgregarCita.aspx.designer.cs">
+      <DependentUpon>AgregarCita.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx.cs">
       <DependentUpon>HomeCita.aspx</DependentUpon>
