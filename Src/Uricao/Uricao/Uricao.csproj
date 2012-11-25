@@ -95,6 +95,7 @@
     <Content Include="Presentacion\JQuery\js\login.js" />
     <Content Include="Presentacion\PaginasWeb\Home\UricaoHome.aspx" />
     <Content Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx" />
+    <Content Include="Presentacion\PaginasWeb\PAgendaCitas\DetalleCita.aspx" />
     <Content Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx" />
     <Content Include="Presentacion\PaginasWeb\PCuentasPorCobrar\HomeCuentasPorCobrar.aspx" />
     <Content Include="Presentacion\PaginasWeb\PCuentasPorPagar\HomeCuentasPorPagar.aspx" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\HomeCita.aspx.designer.cs">
       <DependentUpon>HomeCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\DetalleCita.aspx.cs">
+      <DependentUpon>DetalleCita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\PaginasWeb\PAgendaCitas\DetalleCita.aspx.designer.cs">
+      <DependentUpon>DetalleCita.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\PaginasWeb\PBancos\HomeBancos.aspx.cs">
       <DependentUpon>HomeBancos.aspx</DependentUpon>
